@@ -71,7 +71,7 @@ defaultDriver="eth"
 eth=0
 
 [mempool]
-minTxFeeRate = 100000
+# minTxFeeRate = 100000
 maxTxFeeRate = 10000000
 isLevelFee = false
 maxTxFee=100000000
@@ -156,7 +156,7 @@ tkCloseCacheLen = 200000
 enableTypes = ["secp256k1", "none", "bls", "secp256k1eth"]
 
 [crypto.sub.secp256k1eth]
-evmChainID=3999
+evmChainID=39991
 
 [wallet]
 dbCache = 16
@@ -191,7 +191,7 @@ genesis="0x6b0a9bdf4d994c359fe02a74b538cf3f27b83f0a"
 
 [exec.sub.manage]
 superManager=[
-    "0xf27a1b1a548b7bf380c5011364670b5218edc54b", 
+    "0xf9B58594681165B71B8832FE2FdF36e84e9D11Bf", 
 ]
 
 [exec.sub.paracross]
